@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    width: 100%;
+    height: 60%;
+    /* background-color: coral; */
+    background: url(https://images.unsplash.com/photo-1443916568596-df5a58c445e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    background-size: cover;
+    background-position:40% 30%;
+}
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(75, 197, 56);
+}
+.bone{
+    padding:50px;
+    
+}
+.bone p{
+    margin-top: 28px;
+}
+.bone{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(244, 238, 238);
+}
+.btwo{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(232, 23, 180);
+}
+.bthree{
+    width: 18%;
+    height: 100%;
+    background-color: rgb(15, 223, 234);
+}
+.bfour{
+    width: 32%;
+    height: 100%;
+    background-color: rgb(64, 25, 237);
+}
+.btthree_top{
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+.btthree_bottom{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(56, 216, 64);
+}
+.overlay{
+    position: relative;
+    width: 100%;
+    height:100%;
+    background-color: rgba(233, 150, 122, 0.221);
+}
+.text{
+    bottom:20%;
+    width: 100%;
+    display: flex;
+    /* height: 100px; */
+    padding:0 10vw;
+    align-items: center;
+    position:absolute;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+.text h1{
+    font-size: 6vw;
+    color:white;
+    font-weight: 500;
+}
+ .textright{
+    width: 60%;
+    display: flex;
+    color: white;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.textright P{
+    font-size: 12px;
+    width: 40%;
+}
